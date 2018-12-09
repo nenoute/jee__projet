@@ -1,4 +1,4 @@
-/*package mr.iscae.jee;
+package mr.iscae.jee;
 public class DirecteurG{
 	
 
@@ -31,4 +31,4 @@ public DirecteurG(Integer idDG, String nomDG) {
 	}
 	
 
-}*/
+}

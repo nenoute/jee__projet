@@ -30,7 +30,7 @@ public class Admindefaut {
 	return Data.getAdminParDefaut();
 }
 
-	/*@PUT
+	@POST
 	 public DirecteurG  n(@QueryParam("idDG") Integer idDG,@QueryParam("nomDG") String nomDG){
 		DirecteurG  m=new DirecteurG(idDG,nomDG);
 	Data.setDirt(m);
@@ -41,6 +41,6 @@ public class Admindefaut {
 		
 	public DirecteurG d(){
 		return Data.getDirt();
-	}*/
+	}
 	
 	}
