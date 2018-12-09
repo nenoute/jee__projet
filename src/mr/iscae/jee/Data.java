@@ -1,20 +1,38 @@
 package mr.iscae.jee;
 
 public class Data {
-	String id;
-	String password;
-	private Adminstrateur adminParDefaut=new  Adminstrateur("admin","admin");
+	static	String id;
+	static String password;
+	/*static  Integer idDG;
+	static  String nomDG;
+	
+	private static DirecteurG dirt=new DirecteurG(idDG,nomDG);;
+	
+	public Data(Integer idDG, String nomDG) {
+}
 
-	public Data(String string, String string2) {
+	public static DirecteurG getDirt(){
+		return dirt;
+	}
+
+	public static void setDirt(DirecteurG dirt) {
+		Data.dirt = dirt;
+	}*/
+	public Data() {
+	}
+	private static Adminstrateur adminParDefaut=new  Adminstrateur("admin","admin");
+
+	public Data(String id, String password) {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Adminstrateur getAdminParDefaut(){
+	public static Adminstrateur getAdminParDefaut(){
 		return adminParDefaut;
 	}
 	
-	public void setAdminParDefaut(Adminstrateur adminParDefaut) {
+	public static void setAdminParDefaut(Adminstrateur adminParDefaut) {
 		
-		this.adminParDefaut = adminParDefaut;
+		Data.adminParDefaut = adminParDefaut;
 	}
+	
 }
